@@ -9,6 +9,7 @@ export default class NameInput extends React.Component {
         return (
             <div>
                 <input 
+                    style={{padding: '5px',margin: '5px 0'}}
                     ref={(c) => this.input = c}
                     onChange={this.handleChange.bind(this)} />
 
